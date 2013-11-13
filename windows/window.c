@@ -82,7 +82,7 @@
 #ifndef WHEEL_DELTA
 #define WHEEL_DELTA 120
 #endif
-#define WHEEL_DELTA_PER_LINE (WHEEL_DELTA / 6)
+#define WHEEL_DELTA_PER_LINE (WHEEL_DELTA / 3)
 
 static Mouse_Button translate_button(Mouse_Button button);
 static LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
